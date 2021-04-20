@@ -1,0 +1,226 @@
+[theme="light"] {
+  --background-color: #FDF6E3;
+  --secondary-color: #D9D2C2;
+  --text-color:  #393932;
+  --accent-color: #B58900;
+}
+
+[theme="dark"] {
+  --background-color: #2f3337;
+  --secondary-color: #242726;
+  --text-color: #9fa6ad;
+  --secondary-text-color: #71787e;
+  --accent-color: #465b69;
+}
+
+*{
+  transition: background-color .2s ease-in;
+}
+
+html, body {
+  font-size: .875rem;
+}
+
+#background{
+  background-color: var(--secondary-color);
+  height: 100vh;
+  width:100%;
+  position:fixed;
+  z-index: -100;
+}
+
+#welcome {
+  padding: 1.5rem 1rem;
+  color: var(--text-color);
+}
+
+#welcome p {
+  margin-bottom: 0px;
+}
+
+main {
+  color: var(--text-color);
+  padding-top: 2rem;
+}
+
+.new-reimb {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.upload-image {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  height: calc(1.5em + .75rem + 2px);
+  border-radius: .25rem;
+  cursor: pointer;
+  border-style: groove!important;
+  border-width: 1px!important;
+  border-color: inherit!important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.form-style {
+  display: flex;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  background-clip: padding-box;
+  border-radius: .25rem;
+  margin: 5px auto;
+  outline: none;
+}
+
+iframe body {
+  color: green!important;
+  text-align: center;
+}
+
+iframe {
+  border: none;
+  height: calc(1.5em + .75rem + 2px);
+  width: 100%;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.section-border {
+  background-color: var(--background-color);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 1px #00000030;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  height: calc(1.5em + .75rem + 2px);
+  border-radius: .25rem;
+  border-style: groove;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.sidebar {
+  position: fixed;
+  flex-direction: row;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 5px;
+  background-color: var(--background-color);
+  box-shadow: 5px 0px 10px 1px #00000030;
+  z-index: 1;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #fff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+table, thead, tbody, th, td, tr { 
+  display: block; 
+}
+
+thead tr { 
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+  border: none;
+  border-bottom: 1px solid #eee; 
+  position: relative;
+  padding-left: 50%; 
+}
+
+td:before { 
+  position: relative;
+  top: 0px;
+  left: 6px;
+  width: 45%; 
+  padding-right: 10px; 
+  white-space: nowrap;
+}
+
+td:nth-of-type(1):before { content: "ID:"; font-weight: bold; }
+td:nth-of-type(2):before { content: "Amounte:"; font-weight: bold; }
+td:nth-of-type(3):before { content: "Date Submitted:"; font-weight: bold; }
+td:nth-of-type(4):before { content: "Date Resolved:"; font-weight: bold; }
+td:nth-of-type(5):before { content: "Description:"; font-weight: bold; }
+td:nth-of-type(6):before { content: "Receipt:"; font-weight: bold; }
+td:nth-of-type(7):before { content: "Author:"; font-weight: bold; }
+td:nth-of-type(8):before { content: "Resolver:"; font-weight: bold; }
+td:nth-of-type(9):before { content: "Status:"; font-weight: bold; }
+td:nth-of-type(10):before { content: "Type:"; font-weight: bold; }
+
+}

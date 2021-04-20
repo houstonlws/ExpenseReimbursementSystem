@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dao.ReimbursementDAOImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-21T21:30:41" hostname="DESKTOP-3PUTO70" time="0.283">
+  <properties/>
+  <testcase name="denyReimbursement()" classname="dao.ReimbursementDAOImplTest" time="0.283"/>
+  <system-out><![CDATA[Opening new connection...
+2021-03-21 17:30:41 INFO  Logging:23 - [dao.UserDAOImpl] Reimbursement 1 was denied.
+0 [Test worker] INFO utilities.Logging  - [dao.UserDAOImpl] Reimbursement 1 was denied.
+true
+Reimbursement{reimbId=1, reimbAmount=50.25, reimbSubmitted='2021-01-01', reimbResolved='null', reimbDescription='I need to be reimbursed.', receipt=src\main\java\receipts\1.txt, reimbAuthor=1, reimbResolver=0, reimbStatusId=3, reimbTypeId=1}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

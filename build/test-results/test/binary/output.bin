@@ -1,0 +1,5 @@
+Opening new connection...
+V2021-03-21 17:30:41 INFO  Logging:23 - [dao.UserDAOImpl] Reimbursement 1 was denied.
+Y0 [Test worker] INFO utilities.Logging  - [dao.UserDAOImpl] Reimbursement 1 was denied.
+true
+óReimbursement{reimbId=1, reimbAmount=50.25, reimbSubmitted='2021-01-01', reimbResolved='null', reimbDescription='I need to be reimbursed.', receipt=src\main\java\receipts\1.txt, reimbAuthor=1, reimbResolver=0, reimbStatusId=3, reimbTypeId=1}
