@@ -1,3 +1,5 @@
+#Expense Reimbursement System
+
 This is a management system that handles company reimbursement requests. There are two account types that are available: Finance Manager (admin) and Employee. An Employee is able to submit a reimbursement and a Finance Manager is able to approve or deny it. 
 
 This ia we full stack web application that utilizes Java, JDBC, PostgresSQL, Javalin, HTML, CSS and JavaScript. Below are some of the webpages and their features.
