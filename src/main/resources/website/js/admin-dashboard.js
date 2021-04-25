@@ -76,11 +76,7 @@ function changeAccountsTable(object, id){
         }else if(object[x].userRole=="Finance Manager"){
             txt += "<td>" + `<input id="rid${object[x].userId}" type="checkbox" checked value="Finance Manager"><label"> Admin</label>` + "</td>";
         }
-        txt += "<td>" + `<h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>` + "</td>";
+        txt += "<td>" + `<button type="button" onclick="updateAccount(${object[x].userId})">Update</button>` + "</td>";
     }
     document.getElementById(id).innerHTML = txt;
 }
@@ -88,8 +84,7 @@ function changeAccountsTable(object, id){
 /* 
     Updates the user role of the specified account
 */
-async function updateAccount(account){
-    let id = document.getElementById(account).textContent;
+async function updateAccount(id){
     let value = "";
     if(document.getElementById(`rid${id}`).checked){
         value = "Finance Manager";

@@ -5,24 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../../05-server-side/HelloFrontController" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/../../05-server-side/HelloFrontController" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../../05-server-side/HelloJavalin" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/../../05-server-side/HelloJavalin" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
