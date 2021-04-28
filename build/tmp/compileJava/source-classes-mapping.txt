@@ -1,5 +1,5 @@
-controller/UserController.java
- controller.UserController
+frontcontroller/FrontController.java
+ frontcontroller.FrontController
 model/Reimbursement.java
  model.Reimbursement
 utilities/Logging.java
@@ -8,29 +8,29 @@ main.java
  main
 dao/ReimbursementDAO.java
  dao.ReimbursementDAO
-service/UserServiceDAOImpl.java
- service.UserServiceDAOImpl
-dao/UserDAO.java
- dao.UserDAO
-utilities/DAOUtilities.java
- utilities.DAOUtilities
-controller/ReimbursementController.java
- controller.ReimbursementController
-dao/ReimbursementDAOImpl.java
- dao.ReimbursementDAOImpl
-model/User.java
- model.User
-dao/UserDAOImpl.java
- dao.UserDAOImpl
-utilities/Testing.java
- utilities.Testing
-service/ReimbursementServiceDAO.java
- service.ReimbursementServiceDAO
 service/UserServiceDAO.java
  service.UserServiceDAO
+dao/UserDAO.java
+ dao.UserDAO
+service/ReimbursementServiceDAO.java
+ service.ReimbursementServiceDAO
 frontcontroller/Dispatcher.java
  frontcontroller.Dispatcher
+utilities/Testing.java
+ utilities.Testing
+model/User.java
+ model.User
+controller/UserController.java
+ controller.UserController
+dao/ReimbursementDAOImpl.java
+ dao.ReimbursementDAOImpl
+dao/UserDAOImpl.java
+ dao.UserDAOImpl
+service/UserServiceDAOImpl.java
+ service.UserServiceDAOImpl
+utilities/DAOUtilities.java
+ utilities.DAOUtilities
 service/ReimbursementServiceDAOImpl.java
  service.ReimbursementServiceDAOImpl
-frontcontroller/FrontController.java
- frontcontroller.FrontController
+controller/ReimbursementController.java
+ controller.ReimbursementController

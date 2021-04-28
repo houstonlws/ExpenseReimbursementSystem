@@ -12,8 +12,8 @@ import java.sql.SQLException;
 
 public class DAOUtilities {
 
-    private static final String CONNECTION_USERNAME = "houston";
-    private static final String CONNECTION_PASSWORD = "p4ssw0rd";
+    private static final String CONNECTION_USERNAME = System.getenv("HOUSTONS_DB_USERNAME");
+    private static final String CONNECTION_PASSWORD = System.getenv("HOUSTONS_DB_PASSWORD");
     private static final String URL = "jdbc:postgresql://dbhouston.clfznpef1bdn.us-east-2.rds.amazonaws.com:5432/project1";
 
     private static Connection connection;

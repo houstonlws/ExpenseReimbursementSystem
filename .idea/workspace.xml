@@ -5,47 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc6ad99-3851-490a-92cb-bc57739553f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Expense_Reimbursement_System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/ReimbursementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/ReimbursementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/ReimbursementDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/ReimbursementDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/ReimbursementDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/ReimbursementDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frontcontroller/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frontcontroller/Dispatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/frontcontroller/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/frontcontroller/FrontController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/Reimbursement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/Reimbursement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/ReimbursementServiceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/ReimbursementServiceDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/ReimbursementServiceDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/ReimbursementServiceDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/UserServiceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/UserServiceDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/UserServiceDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/UserServiceDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/utilities/DAOUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utilities/DAOUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utilities/Logging.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utilities/Logging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utilities/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utilities/Testing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/website/js/admin-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/website/js/admin-dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/website/js/admin-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/website/js/admin-dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/employee dashboard-home-light.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/employee-approved.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/employee-approved.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/employee-dashboard-all-filtered.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/employee-dashboard-all-filtered.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/employee-dashboard-all.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/employee-dashboard-all.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/employee-denied.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/employee-denied.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/employee-pending.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/employee-pending.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/DAOUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/DAOUtilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Friendly_Social_Media_Platform/Backend" />
   </component>
   <component name="RunManager">
@@ -93,5 +73,16 @@
       <updated>1619227315150</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
